@@ -1,0 +1,80 @@
+{
+  "users": [
+    { "id": "1", "email": "example1@gmail.com", "password": "123" },
+    { "id": "2", "email": "example2@gmail.com", "password": "123" }
+  ],
+  "urls": {
+    "data": [
+      {
+        "_id": "1",
+        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
+        "shorturl": "https://gkfldopewikl.com",
+        "numOfClicks": "3",
+        "lastUpdate": "2024-01-31"
+      },
+      {
+        "_id": "2",
+        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
+        "shorturl": "https://gkfldogjfkdjwikl.com",
+        "numOfClicks": "5",
+        "lastUpdate": "2024-03-31"
+      },
+      {
+        "_id": "3",
+        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
+        "shorturl": "https://gkfldopewikl.com",
+        "numOfClicks": "3",
+        "lastUpdate": "2024-01-31"
+      },
+      {
+        "_id": "4",
+        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
+        "shorturl": "https://gkfldogjfkdjwikl.com",
+        "numOfClicks": "5",
+        "lastUpdate": "2024-03-31"
+      },
+      {
+        "_id": "5",
+        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
+        "shorturl": "https://gkfldopewikl.com",
+        "numOfClicks": "3",
+        "lastUpdate": "2024-01-31"
+      },
+      {
+        "_id": "6",
+        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
+        "shorturl": "https://gkfldogjfkdjwikl.com",
+        "numOfClicks": "5",
+        "lastUpdate": "2024-03-31"
+      },
+      {
+        "_id": "7",
+        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
+        "shorturl": "https://gkfldopewikl.com",
+        "numOfClicks": "3",
+        "lastUpdate": "2024-01-31"
+      },
+      {
+        "_id": "8",
+        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
+        "shorturl": "https://gkfldogjfkdjwikl.com",
+        "numOfClicks": "5",
+        "lastUpdate": "2024-03-31"
+      },
+      {
+        "_id": "9",
+        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
+        "shorturl": "https://gkfldopewikl.com",
+        "numOfClicks": "3",
+        "lastUpdate": "2024-01-31"
+      },
+      {
+        "_id": "10",
+        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
+        "shorturl": "https://gkfldogjfkdjwikl.com",
+        "numOfClicks": "5",
+        "lastUpdate": "2024-03-31"
+      }
+    ]
+  }
+}
