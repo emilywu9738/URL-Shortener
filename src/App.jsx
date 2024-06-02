@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -6,11 +6,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import SignUp from './routes/signUp';
 import SignIn from './routes/signIn';
+import AdminTable from './routes/admin';
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Box, Stack, TextField, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
-import Admin from './routes/admin';
 
 // import Header from './components/header';
 
@@ -36,17 +36,11 @@ function App() {
     )
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.body);
-        setShortUrl(data.body.shortUrl);
+        console.log(data.body[0].shorturl);
+        setShortUrl(data.body[0].shorturl);
       })
       .catch((error) => console.error('Error:', error));
   }
-
-  // useEffect(() => {
-  //   fetch('http://localhost:3000/url')
-  //     .then((response) => response.json())
-  //     .then((data) => setShortUrl(data));
-  // }, []);
 
   return (
     <ThemeProvider theme={defaultTheme}>
@@ -54,7 +48,7 @@ function App() {
         <Routes>
           <Route path='signup' element={<SignUp />}></Route>
           <Route path='signin' element={<SignIn />}></Route>
-          <Route path='admin' element={<Admin />}></Route>
+          <Route path='admin' element={<AdminTable />}></Route>
           <Route
             path='/'
             element={
@@ -97,7 +91,6 @@ function App() {
                     label='Enter your link'
                     sx={{ width: '100%' }}
                     onChange={(e) => setValue(e.target.value)}
-                    // placeholder='Enter your link'
                   />
                   <Button variant='contained' color='primary' type='submit'>
                     Go!
