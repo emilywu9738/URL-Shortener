@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import * as React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -36,8 +35,8 @@ function App() {
     )
       .then((response) => response.json())
       .then((data) => {
-        console.log(data.body[0].shorturl);
-        setShortUrl(data.body[0].shorturl);
+        // console.log(data);
+        setShortUrl(data.body.shorturl);
       })
       .catch((error) => console.error('Error:', error));
   }

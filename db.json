@@ -6,74 +6,28 @@
   "urls": {
     "data": [
       {
-        "_id": "1",
-        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
-        "shorturl": "https://gkfldopewikl.com",
-        "numOfClicks": "3",
-        "lastUpdate": "2024-01-31"
+        "_id": "665c5d33e9a71ffd8f11c1db",
+        "longurl": "https://www.youtube.com/watch?v=Lf98s3NczBE",
+        "shorturl": "https://weuyzr99v7.execute-api.ap-southeast-2.amazonaws.com/v1?6Shy84JV",
+        "numOfClicks": 1,
+        "lastUpdate": "2024-06-02T11:53:23.768Z",
+        "__v": 0
       },
       {
-        "_id": "2",
-        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
-        "shorturl": "https://gkfldogjfkdjwikl.com",
-        "numOfClicks": "5",
-        "lastUpdate": "2024-03-31"
+        "_id": "665c75b931699cf9541d1fd1",
+        "longurl": "https://share.proto.io/VB37W2/",
+        "shorturl": "https://weuyzr99v7.execute-api.ap-southeast-2.amazonaws.com/v1?367cjeSg",
+        "numOfClicks": 0,
+        "lastUpdate": "2024-06-02T13:38:01.858Z",
+        "__v": 0
       },
       {
-        "_id": "3",
-        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
-        "shorturl": "https://gkfldopewikl.com",
-        "numOfClicks": "3",
-        "lastUpdate": "2024-01-31"
-      },
-      {
-        "_id": "4",
-        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
-        "shorturl": "https://gkfldogjfkdjwikl.com",
-        "numOfClicks": "5",
-        "lastUpdate": "2024-03-31"
-      },
-      {
-        "_id": "5",
-        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
-        "shorturl": "https://gkfldopewikl.com",
-        "numOfClicks": "3",
-        "lastUpdate": "2024-01-31"
-      },
-      {
-        "_id": "6",
-        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
-        "shorturl": "https://gkfldogjfkdjwikl.com",
-        "numOfClicks": "5",
-        "lastUpdate": "2024-03-31"
-      },
-      {
-        "_id": "7",
-        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
-        "shorturl": "https://gkfldopewikl.com",
-        "numOfClicks": "3",
-        "lastUpdate": "2024-01-31"
-      },
-      {
-        "_id": "8",
-        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
-        "shorturl": "https://gkfldogjfkdjwikl.com",
-        "numOfClicks": "5",
-        "lastUpdate": "2024-03-31"
-      },
-      {
-        "_id": "9",
-        "longurl": "https://asiuofjhldsihiudlfghlisdfh.com",
-        "shorturl": "https://gkfldopewikl.com",
-        "numOfClicks": "3",
-        "lastUpdate": "2024-01-31"
-      },
-      {
-        "_id": "10",
-        "longurl": "https://asiuofjssssdgjkkjhghlisdfh.com",
-        "shorturl": "https://gkfldogjfkdjwikl.com",
-        "numOfClicks": "5",
-        "lastUpdate": "2024-03-31"
+        "_id": "665c763531699cf9541d1fd5",
+        "longurl": "https://api.appworks-school.tw/product.html?id=201807201824",
+        "shorturl": "https://weuyzr99v7.execute-api.ap-southeast-2.amazonaws.com/v1?2V5V9NhD",
+        "numOfClicks": 1,
+        "lastUpdate": "2024-06-02T13:40:05.863Z",
+        "__v": 0
       }
     ]
   }

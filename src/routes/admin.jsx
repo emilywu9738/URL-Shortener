@@ -13,11 +13,16 @@ export default function AdminTable() {
   const [rows, setRows] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/urls')
+    fetch(
+      'https://9ed5pacord.execute-api.ap-southeast-2.amazonaws.com/v1/allUrl',
+    )
       .then((response) => response.json())
       .then((data) => {
-        setRows(data.data);
-      });
+        const parsedData = JSON.parse(data.body);
+        console.log(parsedData);
+        setRows(parsedData);
+      })
+      .then(() => console.log(rows));
   }, []);
 
   return (
